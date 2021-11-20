@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "womenswear",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "1637096029db68eff0": {
+      "type": "newsletter",
+      "blocks": {
+        "1637096029d7126778-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our newsletter"
+          }
+        },
+        "1637096029d7126778-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1637096029d7126778-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1637096029d7126778-0",
+        "1637096029d7126778-1",
+        "1637096029d7126778-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "featured_products",
+    "1637096029db68eff0"
+  ]
+}
